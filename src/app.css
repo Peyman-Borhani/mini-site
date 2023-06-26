@@ -1,0 +1,19 @@
+
+    body    {   margin  : 0;    padding:0   }
+
+    main    {   display : flex;     position: fixed;
+                width   : 100vw;    padding : 2ch;
+                height  : 100vh;    flex-direction: column; 
+}
+
+    nav     {   display : flex;     position        : fixed;
+                width   : auto;     border-radius   : 4pt; 
+                height  : auto;     flex-direction  : column;
+                top     : 1ch;      align-items     : center;
+                right   : 1ch;      justify-content : space-between;
+                padding : 0 2ch;    background-color: #112;
+                
+}
+    a       { padding: 6vh 0;  color: #89a  }
+
+/*  h1  {   padding: 2ch    }  */
