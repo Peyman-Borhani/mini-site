@@ -1,19 +1,35 @@
 
     body    {   margin  : 0;    padding:0   }
 
-    main    {   display : flex;     position: fixed;
-                width   : 100vw;    padding : 2ch;
+    main    {                       display : flex;     
+                width   : 100vw;    position: fixed;
                 height  : 100vh;    flex-direction: column; 
+                                    
 }
+    h1, h2, h3, h4, h5, h6, p
+            {   margin  : 1ch 0;        padding  : 0 0 0 .6ch; color: #bcd     }
+
+    h1      {   color   : gold    }
+
+    p       {   padding: 1ch 7ch;   color: #aab}
 
     nav     {   display : flex;     position        : fixed;
-                width   : auto;     border-radius   : 4pt; 
-                height  : auto;     flex-direction  : column;
+                width   : 4ch;      border-radius   : 4pt; 
+                height  : 4ch;      flex-direction  : column;
                 top     : 1ch;      align-items     : center;
-                right   : 1ch;      justify-content : space-between;
-                padding : 0 2ch;    background-color: #112;
-                
+                right   : 1ch;      justify-content : center;
+                opacity : .8;       text-align      : center; 
+                                    background-color: #1128;
 }
-    a       { padding: 6vh 0;  color: #89a  }
+    nav:hover {
+                width   : auto;     opacity : 1;
+                height  : auto;     justify-content: space-between
+}
+    
+    nav > a  {  width: 9ch;         flex-direction: row; 
+                font-size: 2vw;     color: #2ce;
+    }
 
-/*  h1  {   padding: 2ch    }  */
+
+    nav:hover > a { font-size: unset;    padding: 3ch 2ch  }
+    nav:hover > a:hover { color: #6df; text-shadow: 0 0 1ch #fff  }
